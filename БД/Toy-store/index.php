@@ -35,13 +35,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">О компании</a>
+            <a class="nav-link" href="akcii.html">Акции</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Сервисы</a>
+            <a class="nav-link" href="prt.html">Наши партнеры</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Контакты</a>
+            <a class="nav-link" href="company.html">О компании</a>
           </li>
         </ul>
       </div>
