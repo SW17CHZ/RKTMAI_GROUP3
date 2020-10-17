@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>toy-shop</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Магазин игрушек</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        
+            <a class="nav-link" href="index.php">Главная
+            </a>
+          <li class="nav-item">
+		    
+            <a class="nav-link" href="akcii.php">Акции</a>
+			 
+			   
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="prt.php">Наши партнеры</a>
+          </li>
+          <li class="nav-item">
+		  <li class="nav-item active">
+            <a class="nav-link" href="company.html">О компании</a>
+			 <span class="sr-only">(current)</span>
+			 </li>
+          </li>
+        </ul>
+		<script type="text/javascript">
+function Input(){
+login_ok = false;
+user_name = "";
+password = "";
+user_name = prompt("Логин","");
+user_name = user_name.toLowerCase();
+password = prompt("Пароль","");
+password = password.toLowerCase();
+if (user_name=="123" && password=="123") {
+ login_ok = true;
+ window.location = "admin.php";
+}
+if (login_ok==false) alert("Неверный логин или пароль!");
+}
+</script>
+
+<form>
+  <input type="button" value="Админ панель" onClick="Input()">
+ </form>
+		 <a class="nav-link" href="index.php?do=logout">Выйти</a> 
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+
+    
+<div class="col-md-3">
+   <p class="lead">Об компании:</p>
+   <div class="list-group">
+        
+    </div>
+</div>
+
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+     Игрушечный магазин - крупнейшая федеральная торговая сеть по продаже игрушек, включающая в себя <b> 100.000+ </b> магазинов, которые расположены во всех странах СНГ.
+ <p> <img src="http://www.begemott.ru/images/about_com_page/history1.jpg" >  
+ <i> лет работы </i>
+ <p> <img src=" http://www.begemott.ru/images/about_com_page/history2.jpg">
+  <i> довольных покупателей </i>
+<p> <img src=" http://www.begemott.ru/images/about_com_page/history3.jpg" > 
+  <i> довольных партнеров </i>
+ <p> <img src=" http://www.begemott.ru/images/about_com_page/foto1.jpg" >  
+ <p> <img src=" http://www.begemott.ru/images/about_com_page/foto2.jpg" >  
+  
+ 
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Магазин игрушек 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
